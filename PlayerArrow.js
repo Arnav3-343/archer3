@@ -21,7 +21,7 @@ class PlayerArrow {
    this.velocity.mult(0.5);
 
    Matter.body.setVelocity(this.body, {
-     x: this.velocity.x * (180/ 3.14)
+     x: this.velocity.x * (180/ 3.14),
      y: this.velocity.y * (180/ 3.14)
    });
 

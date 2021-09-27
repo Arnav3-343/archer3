@@ -27,9 +27,7 @@ class PlayerArcher {
       angle -=1;
       Matter.Body.setAngle(this.body, angle);
     }
-    if(keyCode === 32){
-      arrow.shoot(playerArcher.body.angle)
-    }
+   
     push();
     translate(pos.x, pos.y);
     rotate(angle);
